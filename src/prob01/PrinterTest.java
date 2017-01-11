@@ -9,6 +9,8 @@ public class PrinterTest {
 		printer.println( true );
 		printer.println( 5.7 );
 		printer.println( "홍길동" );
+		
+		printer.show();
 	}
 
 }

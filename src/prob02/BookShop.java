@@ -1,8 +1,11 @@
 package prob02;
 
+import java.util.Scanner;
+
 public class BookShop {
 
 	public static void main(String[] args) {
+		
 		Book[] books = new Book[10];
 		
 		books[0] = new Book( 1, "트와일라잇", "스테파니메이어" );
@@ -31,6 +34,12 @@ public class BookShop {
 		
 		System.out.println("*****도서 정보 출력하기******");
 		displayBookInfo( books );
+	}
+	
+	public static void displayBookInfo(Book[] books){
+		for( Book book : books) {
+			System.out.println("");
+		}	
 	}
 
 }
